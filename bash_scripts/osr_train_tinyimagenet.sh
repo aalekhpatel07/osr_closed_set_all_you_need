@@ -1,9 +1,9 @@
 #!/bin/bash
-PYTHON='/users/sagar/miniconda3/envs/open_set_recognition/bin/python'
+PYTHON='/home/aalekh/anaconda3/envs/csayn/bin/python'
 export CUDA_VISIBLE_DEVICES=0
 
 # Get unique log file
-SAVE_DIR=/work/sagar/open_set_recognition/dev_outputs/
+SAVE_DIR=/home/aalekh/csayn-data-root/open_set_recognition/dev_outputs/
 
 LOSS='ARPLoss'          # For TinyImageNet, ARPLoss and Softmax loss have the same
                         # RandAug and Label Smoothing hyper-parameters, but different learning rates
